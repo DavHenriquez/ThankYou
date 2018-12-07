@@ -18,6 +18,9 @@ void draw() {
   img = loadImage("Gracias.jpg");
   image(img, 400, 0,width-400,height-300);
   
+  img = loadImage("Gracias.jpg");
+  image(img, 400, 0,width-400,height-300);
+  
   fill(100);
   noStroke();
   rect(490,300,170,130);
