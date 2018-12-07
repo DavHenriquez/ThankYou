@@ -8,15 +8,13 @@ int Bro = 50;
 
 void setup() {
  size(800,700);
+
 }
 
 void draw() {
   background(255);
   
   if(mousePressed) {
-  
-  img = loadImage("Gracias.jpg");
-  image(img, 400, 0,width-400,height-300);
   
   img = loadImage("Gracias.jpg");
   image(img, 400, 0,width-400,height-300);
@@ -69,19 +67,20 @@ line(650,310,640,320);
 
 line(640,310,650,320);
 
-fill(255);
+
+fill(random(255));
 ellipse(mouseX,mouseY,250,250);
 
-fill(0);
+fill(0,0,0,random(255));
 ellipse(mouseX,mouseY,200,200);
 
-fill(0,0,255);
+fill(0,0,random(255),random(255));
 ellipse(mouseX,mouseY,150,150);
 
-fill(255,0,0);
+fill(random(255),0,0,random(255));
 ellipse(mouseX,mouseY,100,100);
 
-fill(255,255,0);
+fill(random(255),random(255),0,random(255));
 ellipse(mouseX,mouseY,50,50);
 
 //fill(255,255,0);
