@@ -1,6 +1,6 @@
 //add thank you code here
-/* @pjs preload= "Balloon.jpg
-/* @pjs preload= "Gracias.jpg
+/* @pjs preload= "Balloon.jpg"; */
+/* @pjs preload= "Gracias.jpg"; */
 PImage img;
 int X = 0;
 int Y = 0;
