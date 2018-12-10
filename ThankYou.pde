@@ -2,14 +2,15 @@
 /* @pjs preload= "Balloon.jpg"; */
 /* @pjs preload= "Gracias.jpg"; */
 PImage img;
-PImage img;
 int X = 0;
 int Y = 0;
 int Bro = 50;
 
 void setup() {
  size(800,700);
+
 }
+
 void draw() {
   background(255);
   
