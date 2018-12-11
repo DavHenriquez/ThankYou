@@ -1,7 +1,7 @@
-//add thank you code here
-/* @pjs preload= "Balloon.jpg"; */
 /* @pjs preload= "Gracias.jpg"; */
+/* @pjs preload= "Balloon.jpg"; */
 PImage img;
+pImage gracias;
 int X = 0;
 int Y = 0;
 int Bro = 50;
@@ -16,8 +16,8 @@ void draw() {
   
   if(mousePressed) {
   
-  img = loadImage("Gracias.jpg");
-  image(img, 400, 0,width-400,height-300);
+  gracias = loadImage("Gracias.jpg");
+  image(gracias, 400, 0,width-400,height-300);
   
   fill(100);
   noStroke();
