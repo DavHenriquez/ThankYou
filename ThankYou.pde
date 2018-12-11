@@ -1,4 +1,5 @@
 PImage img;
+PImage img;
 int X = 0;
 int Y = 0;
 int Bro = 50;
@@ -14,7 +15,7 @@ void draw() {
   if(mousePressed) {
   
   img = loadImage("Gracias.jpg");
-  image(img,400,0,width-400,height-300);
+  image(img, 400, 0,width-400,height-300);
   
   fill(100);
   noStroke();
@@ -101,4 +102,5 @@ ellipse(mouseX,mouseY,50,50);
   }else{
     fill(255);
     noStroke();
-  }}
+  }
+  }
