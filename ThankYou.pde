@@ -1,5 +1,4 @@
 PImage img;
-PImage img;
 int X = 0;
 int Y = 0;
 int Bro = 50;
