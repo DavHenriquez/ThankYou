@@ -1,7 +1,7 @@
 /* @pjs preload= "Gracias.jpg"; */
 /* @pjs preload= "Balloon.jpg"; */
 PImage img;
-pImage gracias;
+PImage gracias;
 int X = 0;
 int Y = 0;
 int Bro = 50;
