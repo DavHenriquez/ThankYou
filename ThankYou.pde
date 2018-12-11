@@ -1,3 +1,5 @@
+/*@pjs preload="Gracias.jpg";*/
+/*@pjs preload="Balloon.jpg";*/
 PImage img;
 PImage gra;
 int X = 0;
