@@ -104,6 +104,4 @@ ellipse(mouseX,mouseY,50,50);
   }else{
     fill(255);
     noStroke();
-  }
-save("David.Thank.code.PNG");
-  }
+  }}
