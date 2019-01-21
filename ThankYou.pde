@@ -23,7 +23,7 @@ void draw() {
   
   fill(0);
   textSize(15);
-text("por ayudarme cuando nadie más lo haría",500,350);
+text("por ayudarme cuando",500,350);
  
     fill(0);
   textSize(15);
