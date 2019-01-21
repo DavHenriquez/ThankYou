@@ -23,11 +23,11 @@ void draw() {
   
   fill(0);
   textSize(15);
-text("me ayudaste cuando",500,350);
+text("por ayudarme cuando nadie más lo haría",500,350);
  
     fill(0);
   textSize(15);
-text("nadie más quería.",500,380);
+text("nadie más lo haría.",500,380);
 
 strokeWeight(1);
 stroke(0);
